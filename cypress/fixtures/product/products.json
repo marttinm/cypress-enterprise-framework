@@ -1,0 +1,265 @@
+{
+  "products": [
+    {
+      "product_id": "prod_001",
+      "name": "Organic Milk",
+      "sku": "MILK-ORG-001",
+      "category": "Dairy",
+      "price": 4.99,
+      "currency": "USD",
+      "description": "Fresh organic whole milk, 1 gallon",
+      "image_url": "https://images.example.com/products/milk.jpg",
+      "unit": "gallon",
+      "weight": 8.6,
+      "weight_unit": "lb",
+      "brand": "Green Valley Farms",
+      "tags": ["organic", "dairy", "fresh"],
+      "attributes": {
+        "organic": true,
+        "fat_content": "whole",
+        "size": "1 gallon"
+      },
+      "inventory": {
+        "available": true,
+        "quantity": 45,
+        "low_stock_threshold": 10
+      }
+    },
+    {
+      "product_id": "prod_002",
+      "name": "Fresh Bakery Items",
+      "sku": "BAKERY-FRESH-001",
+      "category": "Bakery",
+      "price": 6.99,
+      "currency": "USD",
+      "description": "Assorted fresh baked goods, 6 pack",
+      "image_url": "https://images.example.com/products/bakery.jpg",
+      "unit": "pack",
+      "weight": 1.2,
+      "weight_unit": "lb",
+      "brand": "Artisan Bakery Co",
+      "tags": ["bakery", "fresh", "breakfast"],
+      "attributes": {
+        "type": "assorted",
+        "serves": 4,
+        "expiry_days": 5
+      },
+      "inventory": {
+        "available": true,
+        "quantity": 23,
+        "low_stock_threshold": 5
+      }
+    },
+    {
+      "product_id": "prod_003",
+      "name": "Premium Coffee Beans",
+      "sku": "COFFEE-PREM-001",
+      "category": "Beverages",
+      "price": 18.99,
+      "currency": "USD",
+      "description": "Premium Arabica coffee beans, 2 lb bag",
+      "image_url": "https://images.example.com/products/coffee.jpg",
+      "unit": "bag",
+      "weight": 2.0,
+      "weight_unit": "lb",
+      "brand": "Mountain Peak Roasters",
+      "tags": ["coffee", "beverages", "premium"],
+      "attributes": {
+        "roast": "medium",
+        "origin": "single origin",
+        "grind": "whole bean"
+      },
+      "inventory": {
+        "available": true,
+        "quantity": 67,
+        "low_stock_threshold": 15
+      }
+    },
+    {
+      "product_id": "prod_004",
+      "name": "Organic Honey",
+      "sku": "HONEY-ORG-001",
+      "category": "Pantry",
+      "price": 12.99,
+      "currency": "USD",
+      "description": "Raw organic wildflower honey, 16 oz",
+      "image_url": "https://images.example.com/products/honey.jpg",
+      "unit": "jar",
+      "weight": 1.0,
+      "weight_unit": "lb",
+      "brand": "Bee Haven Apiaries",
+      "tags": ["organic", "pantry", "natural"],
+      "attributes": {
+        "type": "raw",
+        "variety": "wildflower",
+        "size": "16 oz"
+      },
+      "inventory": {
+        "available": true,
+        "quantity": 34,
+        "low_stock_threshold": 8
+      }
+    },
+    {
+      "product_id": "prod_005",
+      "name": "Fresh Produce Box",
+      "sku": "PRODUCE-BOX-001",
+      "category": "Produce",
+      "price": 29.99,
+      "currency": "USD",
+      "description": "Weekly organic produce box, serves 4",
+      "image_url": "https://images.example.com/products/produce_box.jpg",
+      "unit": "box",
+      "weight": 8.0,
+      "weight_unit": "lb",
+      "brand": "Farm Fresh Collective",
+      "tags": ["organic", "produce", "seasonal"],
+      "attributes": {
+        "organic": true,
+        "serves": 4,
+        "contents": "seasonal vegetables"
+      },
+      "inventory": {
+        "available": true,
+        "quantity": 18,
+        "low_stock_threshold": 5
+      }
+    },
+    {
+      "product_id": "prod_006",
+      "name": "Organic Vegetables",
+      "sku": "VEG-ORG-MIX-001",
+      "category": "Produce",
+      "price": 8.99,
+      "currency": "USD",
+      "description": "Organic mixed vegetables, 2 lb bag",
+      "image_url": "https://images.example.com/products/vegetables.jpg",
+      "unit": "bag",
+      "weight": 2.0,
+      "weight_unit": "lb",
+      "brand": "Green Valley Farms",
+      "tags": ["organic", "produce", "vegetables"],
+      "attributes": {
+        "organic": true,
+        "type": "mixed",
+        "size": "2 lb"
+      },
+      "inventory": {
+        "available": true,
+        "quantity": 52,
+        "low_stock_threshold": 12
+      }
+    },
+    {
+      "product_id": "prod_007",
+      "name": "Gourmet Cheese Selection",
+      "sku": "CHEESE-GOURMET-001",
+      "category": "Dairy",
+      "price": 24.99,
+      "currency": "USD",
+      "description": "Artisan cheese selection, 5 varieties",
+      "image_url": "https://images.example.com/products/cheese.jpg",
+      "unit": "pack",
+      "weight": 1.5,
+      "weight_unit": "lb",
+      "brand": "Fromage Artisans",
+      "tags": ["cheese", "gourmet", "artisan"],
+      "attributes": {
+        "type": "assorted",
+        "varieties": 5,
+        "origin": "imported"
+      },
+      "inventory": {
+        "available": true,
+        "quantity": 15,
+        "low_stock_threshold": 5
+      }
+    },
+    {
+      "product_id": "prod_008",
+      "name": "Dairy Products",
+      "sku": "DAIRY-MIX-001",
+      "category": "Dairy",
+      "price": 15.99,
+      "currency": "USD",
+      "description": "Assorted dairy essentials pack",
+      "image_url": "https://images.example.com/products/dairy_mix.jpg",
+      "unit": "pack",
+      "weight": 4.5,
+      "weight_unit": "lb",
+      "brand": "Green Valley Farms",
+      "tags": ["dairy", "essentials", "pack"],
+      "attributes": {
+        "type": "assorted",
+        "items": ["milk", "butter", "cream", "yogurt"]
+      },
+      "inventory": {
+        "available": true,
+        "quantity": 28,
+        "low_stock_threshold": 8
+      }
+    },
+    {
+      "product_id": "prod_009",
+      "name": "Frozen Groceries",
+      "sku": "FROZEN-MIX-001",
+      "category": "Frozen",
+      "price": 32.99,
+      "currency": "USD",
+      "description": "Premium frozen meal selection, 6 meals",
+      "image_url": "https://images.example.com/products/frozen.jpg",
+      "unit": "box",
+      "weight": 6.0,
+      "weight_unit": "lb",
+      "brand": "Chef's Table",
+      "tags": ["frozen", "meals", "convenient"],
+      "attributes": {
+        "type": "meals",
+        "servings": 6,
+        "diet_type": "varied"
+      },
+      "inventory": {
+        "available": true,
+        "quantity": 41,
+        "low_stock_threshold": 10
+      }
+    },
+    {
+      "product_id": "prod_010",
+      "name": "Bottled Water",
+      "sku": "WATER-BTL-001",
+      "category": "Beverages",
+      "price": 5.99,
+      "currency": "USD",
+      "description": "Purified spring water, 24 pack",
+      "image_url": "https://images.example.com/products/water.jpg",
+      "unit": "case",
+      "weight": 36.0,
+      "weight_unit": "lb",
+      "brand": "Crystal Springs",
+      "tags": ["water", "beverages", "essentials"],
+      "attributes": {
+        "type": "spring water",
+        "size": "16.9 oz bottles",
+        "count": 24
+      },
+      "inventory": {
+        "available": true,
+        "quantity": 89,
+        "low_stock_threshold": 20
+      }
+    }
+  ],
+  "categories": [
+    { "category_id": "cat_001", "name": "Produce", "icon": "vegetables" },
+    { "category_id": "cat_002", "name": "Dairy", "icon": "milk" },
+    { "category_id": "cat_003", "name": "Bakery", "icon": "bread" },
+    { "category_id": "cat_004", "name": "Meat & Seafood", "icon": "meat" },
+    { "category_id": "cat_005", "name": "Beverages", "icon": "drinks" },
+    { "category_id": "cat_006", "name": "Frozen", "icon": "snowflake" },
+    { "category_id": "cat_007", "name": "Pantry", "icon": "shelves" },
+    { "category_id": "cat_008", "name": "Snacks", "icon": "cookie" },
+    { "category_id": "cat_009", "name": "Household", "icon": "home" },
+    { "category_id": "cat_010", "name": "Personal Care", "icon": "person" }
+  ]
+}

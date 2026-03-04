@@ -1,0 +1,42 @@
+{
+  "delivery_methods": [
+    {
+      "type": "express",
+      "name": "Express Delivery",
+      "description": "Fast delivery within 2-4 hours",
+      "fee": 9.99,
+      "free_threshold": 100,
+      "estimated_hours": 3,
+      "available": true,
+      "cutoff_time": "12:00 PM"
+    },
+    {
+      "type": "express_priority",
+      "name": "Priority Express",
+      "description": "Fastest delivery within 1-2 hours",
+      "fee": 14.99,
+      "free_threshold": null,
+      "estimated_hours": 1.5,
+      "available": true,
+      "cutoff_time": "3:00 PM"
+    }
+  ],
+  "delivery_zones": [
+    {
+      "zone_id": "express_zone_1",
+      "name": "Express Zone - Downtown",
+      "radius_miles": 5,
+      "available_methods": ["express", "express_priority"]
+    }
+  ],
+  "time_slots": [
+    {
+      "day": "Today",
+      "slots": [
+        { "id": "express_slot_1", "time": "2:00 PM - 4:00 PM", "available": true },
+        { "id": "express_slot_2", "time": "4:00 PM - 6:00 PM", "available": true },
+        { "id": "express_slot_3", "time": "6:00 PM - 8:00 PM", "available": false }
+      ]
+    }
+  ]
+}

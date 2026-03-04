@@ -1,0 +1,26 @@
+{
+  "inventory_status": [
+    {
+      "product_id": "prod_001",
+      "sku": "MILK-ORG-001",
+      "available": true,
+      "quantity": 45,
+      "reserved": 5,
+      "available_quantity": 40,
+      "low_stock": false,
+      "low_stock_threshold": 10,
+      "last_updated": "2024-12-01T15:00:00Z"
+    },
+    {
+      "product_id": "prod_003",
+      "sku": "COFFEE-PREM-001",
+      "available": true,
+      "quantity": 67,
+      "reserved": 12,
+      "available_quantity": 55,
+      "low_stock": false,
+      "low_stock_threshold": 15,
+      "last_updated": "2024-12-01T15:00:00Z"
+    }
+  ]
+}

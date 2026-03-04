@@ -1,0 +1,70 @@
+{
+  "tracking": {
+    "order_id": "ORD-12345",
+    "tracking_number": "TRK-987654321",
+    "carrier": "QuickShip Logistics",
+    "status": "out_for_delivery",
+    "estimated_delivery": {
+      "date": "2024-12-02",
+      "time_window": "2:00 PM - 6:00 PM",
+      "formatted": "Tomorrow by 6:00 PM"
+    },
+    "current_location": {
+      "latitude": 34.0522,
+      "longitude": -118.2437,
+      "address": "123 Main Street, Los Angeles, CA 90001",
+      "last_updated": "2024-12-02T10:30:00Z"
+    },
+    "delivery_progress": [
+      {
+        "status": "order_placed",
+        "description": "Order placed",
+        "timestamp": "2024-12-01T10:30:00Z",
+        "completed": true
+      },
+      {
+        "status": "order_confirmed",
+        "description": "Order confirmed",
+        "timestamp": "2024-12-01T10:35:00Z",
+        "completed": true
+      },
+      {
+        "status": "preparing",
+        "description": "Preparing your order",
+        "timestamp": "2024-12-01T12:00:00Z",
+        "completed": true
+      },
+      {
+        "status": "ready_for_pickup",
+        "description": "Ready for driver pickup",
+        "timestamp": "2024-12-02T08:00:00Z",
+        "completed": true
+      },
+      {
+        "status": "out_for_delivery",
+        "description": "Out for delivery",
+        "timestamp": "2024-12-02T09:15:00Z",
+        "completed": false,
+        "current": true
+      },
+      {
+        "status": "delivered",
+        "description": "Delivered",
+        "timestamp": null,
+        "completed": false
+      }
+    ],
+    "driver": {
+      "driver_id": "driver_001",
+      "name": "Michael Chen",
+      "phone": "+1-555-987-6543",
+      "photo_url": "https://images.example.com/drivers/driver_001.jpg",
+      "current_location": {
+        "latitude": 34.0480,
+        "longitude": -118.2380
+      },
+      "distance_away_miles": 0.5,
+      "estimated_arrival": "2024-12-02T15:30:00Z"
+    }
+  }
+}

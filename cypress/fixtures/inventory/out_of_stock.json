@@ -1,0 +1,16 @@
+{
+  "inventory_status": [
+    {
+      "product_id": "prod_012",
+      "sku": "SEASONAL-ITEM-001",
+      "available": false,
+      "quantity": 0,
+      "reserved": 0,
+      "available_quantity": 0,
+      "low_stock": false,
+      "low_stock_threshold": 5,
+      "last_updated": "2024-12-01T15:00:00Z",
+      "restock_date": "2024-12-15T00:00:00Z"
+    }
+  ]
+}

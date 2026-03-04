@@ -1,0 +1,37 @@
+{
+  "order_id": "ORD-12345",
+  "status": "out_for_delivery",
+  "status_display": "Out for Delivery",
+  "status_details": {
+    "can_cancel": false,
+    "can_modify": false,
+    "can_track": true
+  },
+  "timeline": [
+    {
+      "status": "order_placed",
+      "description": "Your order has been placed",
+      "timestamp": "2024-12-01T10:30:00Z"
+    },
+    {
+      "status": "order_confirmed",
+      "description": "Order confirmed and being prepared",
+      "timestamp": "2024-12-01T10:35:00Z"
+    },
+    {
+      "status": "preparing",
+      "description": "Your items are being prepared",
+      "timestamp": "2024-12-01T12:00:00Z"
+    },
+    {
+      "status": "ready_for_pickup",
+      "description": "Ready for driver pickup",
+      "timestamp": "2024-12-02T08:00:00Z"
+    },
+    {
+      "status": "out_for_delivery",
+      "description": "Driver is on the way",
+      "timestamp": "2024-12-02T09:15:00Z"
+    }
+  ]
+}

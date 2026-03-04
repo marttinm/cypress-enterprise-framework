@@ -1,0 +1,43 @@
+{
+  "customer_id": "cust_12345",
+  "email": "customer@example.com",
+  "first_name": "John",
+  "last_name": "Doe",
+  "phone": "+1-555-123-4567",
+  "loyalty_tier": "gold",
+  "loyalty_points": 2450,
+  "account_status": "active",
+  "addresses": [
+    {
+      "address_id": "addr_001",
+      "label": "Home",
+      "street": "123 Main Street",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip_code": "90001",
+      "country": "USA",
+      "is_default": true,
+      "delivery_instructions": "Ring doorbell twice"
+    },
+    {
+      "address_id": "addr_002",
+      "label": "Work",
+      "street": "456 Business Park Drive",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip_code": "90002",
+      "country": "USA",
+      "is_default": false,
+      "delivery_instructions": "Leave at reception"
+    }
+  ],
+  "preferences": {
+    "communication_email": true,
+    "communication_sms": false,
+    "newsletter_subscribed": true,
+    "preferred_delivery_time": "morning",
+    "dietary_restrictions": []
+  },
+  "created_at": "2023-01-15T10:30:00Z",
+  "updated_at": "2024-12-01T14:22:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "driver": {
+    "driver_id": "driver_001",
+    "name": "Michael Chen",
+    "phone": "+1-555-987-6543",
+    "photo_url": "https://images.example.com/drivers/driver_001.jpg",
+    "vehicle": "White Toyota Camry",
+    "license_plate": "ABC-1234",
+    "current_location": {
+      "latitude": 34.0480,
+      "longitude": -118.2380,
+      "address": "150 Main Street, Los Angeles, CA 90001",
+      "last_updated": "2024-12-02T10:30:00Z"
+    },
+    "distance_away_miles": 0.5,
+    "estimated_arrival": "2024-12-02T15:30:00Z",
+    "heading": "north"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "inventory_status": [
+    {
+      "product_id": "prod_011",
+      "sku": "HOLIDAY-SPECIAL-001",
+      "available": true,
+      "quantity": 3,
+      "reserved": 0,
+      "available_quantity": 3,
+      "low_stock": true,
+      "low_stock_threshold": 5,
+      "last_updated": "2024-12-01T15:00:00Z"
+    }
+  ]
+}

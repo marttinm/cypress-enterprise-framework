@@ -1,0 +1,42 @@
+{
+  "payment_methods": [
+    {
+      "type": "credit_card",
+      "name": "Credit Card",
+      "available": true,
+      "icon": "credit-card",
+      "fields": [
+        { "name": "cardNumber", "label": "Card Number", "type": "text" },
+        { "name": "expiry", "label": "Expiry Date", "type": "text" },
+        { "name": "cvv", "label": "CVV", "type": "password" },
+        { "name": "nameOnCard", "label": "Name on Card", "type": "text" }
+      ]
+    },
+    {
+      "type": "debit_card",
+      "name": "Debit Card",
+      "available": true,
+      "icon": "debit-card",
+      "fields": [
+        { "name": "cardNumber", "label": "Card Number", "type": "text" },
+        { "name": "expiry", "label": "Expiry Date", "type": "text" },
+        { "name": "cvv", "label": "CVV", "type": "password" },
+        { "name": "nameOnCard", "label": "Name on Card", "type": "text" }
+      ]
+    },
+    {
+      "type": "digital_wallet",
+      "name": "Digital Wallet",
+      "available": true,
+      "icon": "wallet",
+      "providers": ["apple_pay", "google_pay", "paypal"]
+    },
+    {
+      "type": "loyalty_points",
+      "name": "Loyalty Points",
+      "available": true,
+      "icon": "star",
+      "description": "Pay with your loyalty points"
+    }
+  ]
+}

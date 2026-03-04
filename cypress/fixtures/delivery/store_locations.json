@@ -1,0 +1,88 @@
+{
+  "stores": [
+    {
+      "store_id": "store_001",
+      "name": "Downtown Market",
+      "address": "123 Main Street",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip_code": "90001",
+      "distance": 0.8,
+      "hours": {
+        "monday": "7:00 AM - 9:00 PM",
+        "tuesday": "7:00 AM - 9:00 PM",
+        "wednesday": "7:00 AM - 9:00 PM",
+        "thursday": "7:00 AM - 9:00 PM",
+        "friday": "7:00 AM - 10:00 PM",
+        "saturday": "8:00 AM - 10:00 PM",
+        "sunday": "8:00 AM - 8:00 PM"
+      },
+      "pickup_available": true,
+      "same_day_pickup": true,
+      "estimated_preparation_time": 30
+    },
+    {
+      "store_id": "store_002",
+      "name": "Westside Store",
+      "address": "456 Ocean Boulevard",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip_code": "90002",
+      "distance": 2.3,
+      "hours": {
+        "monday": "6:00 AM - 10:00 PM",
+        "tuesday": "6:00 AM - 10:00 PM",
+        "wednesday": "6:00 AM - 10:00 PM",
+        "thursday": "6:00 AM - 10:00 PM",
+        "friday": "6:00 AM - 11:00 PM",
+        "saturday": "7:00 AM - 11:00 PM",
+        "sunday": "7:00 AM - 9:00 PM"
+      },
+      "pickup_available": true,
+      "same_day_pickup": true,
+      "estimated_preparation_time": 45
+    },
+    {
+      "store_id": "store_003",
+      "name": "Eastgate Market",
+      "address": "789 Commerce Way",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip_code": "90003",
+      "distance": 4.1,
+      "hours": {
+        "monday": "8:00 AM - 8:00 PM",
+        "tuesday": "8:00 AM - 8:00 PM",
+        "wednesday": "8:00 AM - 8:00 PM",
+        "thursday": "8:00 AM - 8:00 PM",
+        "friday": "8:00 AM - 9:00 PM",
+        "saturday": "9:00 AM - 9:00 PM",
+        "sunday": "9:00 AM - 7:00 PM"
+      },
+      "pickup_available": true,
+      "same_day_pickup": false,
+      "estimated_preparation_time": 60
+    },
+    {
+      "store_id": "store_004",
+      "name": "Northpoint Store",
+      "address": "321 Northern Ave",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip_code": "90004",
+      "distance": 5.7,
+      "hours": {
+        "monday": "7:00 AM - 9:00 PM",
+        "tuesday": "7:00 AM - 9:00 PM",
+        "wednesday": "7:00 AM - 9:00 PM",
+        "thursday": "7:00 AM - 9:00 PM",
+        "friday": "7:00 AM - 10:00 PM",
+        "saturday": "8:00 AM - 10:00 PM",
+        "sunday": "8:00 AM - 8:00 PM"
+      },
+      "pickup_available": true,
+      "same_day_pickup": true,
+      "estimated_preparation_time": 40
+    }
+  ]
+}

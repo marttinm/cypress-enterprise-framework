@@ -1,0 +1,22 @@
+{
+  "schedule": {
+    "delivery_id": "sched_12345",
+    "order_id": "ORD-67890",
+    "method": "standard",
+    "scheduled_date": "2024-12-05",
+    "time_slot": "10:00 AM - 12:00 PM",
+    "time_slot_id": "slot_2",
+    "estimated_arrival": "2024-12-05T11:00:00Z",
+    "status": "scheduled",
+    "address": {
+      "street": "123 Main Street",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip_code": "90001",
+      "country": "USA"
+    },
+    "instructions": "Ring doorbell twice",
+    "created_at": "2024-12-01T15:45:30Z",
+    "updated_at": "2024-12-01T15:45:30Z"
+  }
+}

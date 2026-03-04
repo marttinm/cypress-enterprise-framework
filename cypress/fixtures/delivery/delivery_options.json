@@ -1,0 +1,67 @@
+{
+  "delivery_methods": [
+    {
+      "type": "standard",
+      "name": "Standard Delivery",
+      "description": "Delivery within 2-3 business days",
+      "fee": 4.99,
+      "free_threshold": 50,
+      "estimated_days": 3,
+      "available": true
+    },
+    {
+      "type": "same_day",
+      "name": "Same Day Delivery",
+      "description": "Delivery today within 4 hours",
+      "fee": 9.99,
+      "free_threshold": null,
+      "estimated_hours": 4,
+      "available": true,
+      "cutoff_time": "2:00 PM"
+    },
+    {
+      "type": "scheduled",
+      "name": "Scheduled Delivery",
+      "description": "Choose your preferred delivery date and time",
+      "fee": 6.99,
+      "free_threshold": 75,
+      "available": true
+    }
+  ],
+  "delivery_zones": [
+    {
+      "zone_id": "zone_1",
+      "name": "Local Area",
+      "radius_miles": 10,
+      "available_methods": ["standard", "same_day", "scheduled"]
+    },
+    {
+      "zone_id": "zone_2",
+      "name": "Extended Area",
+      "radius_miles": 25,
+      "available_methods": ["standard", "scheduled"]
+    }
+  ],
+  "time_slots": [
+    {
+      "day": "Tomorrow",
+      "slots": [
+        { "id": "slot_1", "time": "8:00 AM - 10:00 AM", "available": true },
+        { "id": "slot_2", "time": "10:00 AM - 12:00 PM", "available": true },
+        { "id": "slot_3", "time": "2:00 PM - 4:00 PM", "available": true },
+        { "id": "slot_4", "time": "4:00 PM - 6:00 PM", "available": false },
+        { "id": "slot_5", "time": "6:00 PM - 8:00 PM", "available": true }
+      ]
+    },
+    {
+      "day": "Day After Tomorrow",
+      "slots": [
+        { "id": "slot_6", "time": "8:00 AM - 10:00 AM", "available": true },
+        { "id": "slot_7", "time": "10:00 AM - 12:00 PM", "available": true },
+        { "id": "slot_8", "time": "2:00 PM - 4:00 PM", "available": true },
+        { "id": "slot_9", "time": "4:00 PM - 6:00 PM", "available": true },
+        { "id": "slot_10", "time": "6:00 PM - 8:00 PM", "available": true }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD-12345",
+      "order_number": "ORD-12345",
+      "status": "out_for_delivery",
+      "status_display": "Out for Delivery",
+      "items": [
+        {
+          "product_id": "prod_001",
+          "name": "Organic Milk",
+          "quantity": 2,
+          "price": 4.99
+        },
+        {
+          "product_id": "prod_002",
+          "name": "Fresh Bakery Items",
+          "quantity": 1,
+          "price": 6.99
+        }
+      ],
+      "total": 26.97,
+      "delivery": {
+        "method": "express",
+        "estimated_delivery": "2024-12-02T15:00:00Z",
+        "address": "123 Main Street, Los Angeles, CA 90001"
+      },
+      "created_at": "2024-12-01T10:30:00Z",
+      "updated_at": "2024-12-02T09:15:00Z"
+    },
+    {
+      "order_id": "ORD-12346",
+      "order_number": "ORD-12346",
+      "status": "delivered",
+      "status_display": "Delivered",
+      "items": [
+        {
+          "product_id": "prod_003",
+          "name": "Premium Coffee Beans",
+          "quantity": 1,
+          "price": 18.99
+        },
+        {
+          "product_id": "prod_004",
+          "name": "Organic Honey",
+          "quantity": 1,
+          "price": 12.99
+        },
+        {
+          "product_id": "prod_005",
+          "name": "Fresh Produce Box",
+          "quantity": 1,
+          "price": 29.99
+        }
+      ],
+      "total": 61.97,
+      "delivery": {
+        "method": "standard",
+        "delivered_at": "2024-11-28T14:30:00Z",
+        "address": "123 Main Street, Los Angeles, CA 90001"
+      },
+      "created_at": "2024-11-25T08:00:00Z",
+      "updated_at": "2024-11-28T14:30:00Z"
+    },
+    {
+      "order_id": "ORD-12347",
+      "order_number": "ORD-12347",
+      "status": "processing",
+      "status_display": "Processing",
+      "items": [
+        {
+          "product_id": "prod_006",
+          "name": "Organic Vegetables",
+          "quantity": 3,
+          "price": 8.99
+        }
+      ],
+      "total": 26.97,
+      "delivery": {
+        "method": "scheduled",
+        "scheduled_date": "2024-12-10",
+        "address": "123 Main Street, Los Angeles, CA 90001"
+      },
+      "created_at": "2024-12-01T16:00:00Z",
+      "updated_at": "2024-12-01T16:00:00Z"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "per_page": 10,
+    "total": 15,
+    "total_pages": 2
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "cart_id": "cart_abc123def456",
+  "customer_id": "cust_12345",
+  "items": [
+    {
+      "item_id": "item_001",
+      "product_id": "prod_001",
+      "name": "Organic Milk",
+      "sku": "MILK-ORG-001",
+      "price": 4.99,
+      "quantity": 1,
+      "subtotal": 4.99,
+      "image_url": "https://images.example.com/products/milk.jpg",
+      "available": true
+    },
+    {
+      "item_id": "item_002",
+      "product_id": "prod_003",
+      "name": "Premium Coffee Beans",
+      "sku": "COFFEE-PREM-001",
+      "price": 18.99,
+      "quantity": 1,
+      "subtotal": 18.99,
+      "image_url": "https://images.example.com/products/coffee.jpg",
+      "available": true
+    }
+  ],
+  "subtotal": 23.98,
+  "tax": 1.99,
+  "delivery_fee": 4.99,
+  "promo_discount": 0,
+  "total": 30.96,
+  "item_count": 2,
+  "minimum_order_met": false,
+  "minimum_order_amount": 35.00,
+  "created_at": "2024-12-01T15:30:00Z",
+  "updated_at": "2024-12-01T15:35:00Z"
+}

@@ -1,0 +1,15 @@
+{
+  "cart_id": "cart_empty123",
+  "customer_id": "cust_12345",
+  "items": [],
+  "subtotal": 0,
+  "tax": 0,
+  "delivery_fee": 0,
+  "promo_discount": 0,
+  "total": 0,
+  "item_count": 0,
+  "minimum_order_met": false,
+  "minimum_order_amount": 35.00,
+  "created_at": "2024-12-01T15:30:00Z",
+  "updated_at": "2024-12-01T15:30:00Z"
+}

@@ -1,0 +1,56 @@
+{
+  "delivery_methods": [
+    {
+      "type": "pickup",
+      "name": "Store Pickup",
+      "description": "Pick up at your preferred store location",
+      "fee": 0,
+      "free_threshold": null,
+      "available": true,
+      "stores": [
+        {
+          "store_id": "store_001",
+          "name": "Downtown Market",
+          "address": "123 Main Street",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip_code": "90001",
+          "distance": 0.8,
+          "hours": "7:00 AM - 9:00 PM",
+          "same_day_available": true,
+          "preparation_time_minutes": 30
+        },
+        {
+          "store_id": "store_002",
+          "name": "Westside Store",
+          "address": "456 Ocean Boulevard",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip_code": "90002",
+          "distance": 2.3,
+          "hours": "6:00 AM - 10:00 PM",
+          "same_day_available": true,
+          "preparation_time_minutes": 45
+        }
+      ]
+    }
+  ],
+  "time_slots": [
+    {
+      "day": "Same Day",
+      "slots": [
+        { "id": "pickup_slot_1", "time": "2:00 PM - 3:00 PM", "available": true },
+        { "id": "pickup_slot_2", "time": "3:00 PM - 4:00 PM", "available": true },
+        { "id": "pickup_slot_3", "time": "4:00 PM - 5:00 PM", "available": false }
+      ]
+    },
+    {
+      "day": "Next Day",
+      "slots": [
+        { "id": "pickup_slot_4", "time": "9:00 AM - 10:00 AM", "available": true },
+        { "id": "pickup_slot_5", "time": "10:00 AM - 11:00 AM", "available": true },
+        { "id": "pickup_slot_6", "time": "11:00 AM - 12:00 PM", "available": true }
+      ]
+    }
+  ]
+}

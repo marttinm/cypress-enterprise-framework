@@ -1,0 +1,22 @@
+# GitHub CODEOWNERS
+# Reference: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+* @marttinm
+
+# Configuration files require approval
+*.json @marttinm
+*.js @marttinm
+*.config.* @marttinm
+
+# GitHub and CI/CD
+.github/ @marttinm
+.github/workflows/ @marttinm
+
+# Test files
+cypress/ @marttinm
+cypress/e2e/ @marttinm
+cypress/support/ @marttinm
+cypress/fixtures/ @marttinm
+
+# Documentation
+*.md @marttinm
